@@ -1,8 +1,8 @@
 # Compiler
 Компилятор условного языка SIGNAL, который генерирует исполняемый ассемблерный код.
 Язык SIGNAL - это условный язык программирования, граматика которого:
-![Фото граматики](https://github.com/DmitryTrofimtsov/Compiler/raw/master/Граматика_1.png)
-![фото граматики](https://github.com/DmitryTrofimtsov/Compiler/master/Граматика_2.png)
+![Фото граматики](https://github.com/DmitryTrofimtsov/Compiler/blob/main/Граматика_1.png)
+![фото граматики](https://github.com/DmitryTrofimtsov/Compiler/blob/main/Граматика_2.png)
 
 Компилятор построен в три этапа: разработка лексического анализатора, разработка синтаксического анализатора, разработка генератора кода.
 
