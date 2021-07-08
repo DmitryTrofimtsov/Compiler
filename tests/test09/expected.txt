@@ -1,0 +1,41 @@
+push rbp
+mov rbp, rsp
+
+mov DWORD PTR[rbp-4], 0
+mov DWORD PTR[rbp-8], 0
+
+mov eax, mov DWORD PTR[rbp-4]
+mov ebx, mov DWORD PTR[rbp-8]
+cmp eax, ebx
+jge .Label1
+mov eax, 0
+jmp .Label2
+.Label1:
+mov eax, 1
+.Label2:
+mov mov DWORD PTR[rbp-4], eax
+
+mov eax, 10
+mov ebx, 0
+cmp eax, ebx
+jge .Label3
+mov eax, 0
+jmp .Label4
+.Label3:
+mov eax, 1
+.Label4:
+mov mov DWORD PTR[rbp-4], eax
+
+mov eax, 10
+mov ebx, mov DWORD PTR[rbp-8]
+cmp eax, ebx
+jge .Label5
+mov eax, 0
+jmp .Label6
+.Label5:
+mov eax, 1
+.Label6:
+mov mov DWORD PTR[rbp-4], eax
+
+pop rbp
+ret

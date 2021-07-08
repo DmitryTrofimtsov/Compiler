@@ -1,0 +1,4 @@
+PROGRAM TEST03;
+    VAR
+    BEGIN
+    END

@@ -1,0 +1,19 @@
+push rbp
+mov rbp, rsp
+
+mov DWORD PTR[rbp-4], 0
+
+mov eax, 10
+mov ebx, 10
+cmp eax, ebx
+jne .Label1
+mov eax, 0
+jmp .Label2
+.Label1:
+mov eax, 1
+.Label2:
+NOT eax
+mov mov DWORD PTR[rbp-4], eax
+
+pop rbp
+ret
