@@ -1,1 +1,0 @@
-PARSER ERROR: <comparison operator> expected , but '12' founded (line 6, column 21)

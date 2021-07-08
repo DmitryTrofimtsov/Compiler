@@ -1,3 +1,0 @@
-LEXER ERROR: unidentifier element 't' (line 2, column 12 )
-LEXER ERROR: unidentifier element 'i' (line 5, column 10 )
-LEXER ERROR: unclosed comment (line 8, column 1 )
